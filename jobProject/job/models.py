@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 from django.db import models
-from scrapy_djangoitem import DjangoItem
+
 # Create your models here.
 class Job(models.Model):
     title = models.CharField(max_length=500, default='no name')
