@@ -16,7 +16,7 @@ def inorCertError():
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
     
-# 
+# search form
 def index(request):
     return render(request, 'job/index.html')
 
